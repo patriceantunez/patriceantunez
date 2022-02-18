@@ -1,0 +1,56 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: rgb(77, 146, 202);
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: pink;
+  border: double black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: pink;
+  padding: 20px;
+  margin-top: 20px;
+  border: double
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  border: double
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: pink;
+  margin-top: 20px;
+  border: double
+
+}
